@@ -1,0 +1,32 @@
+
+canvas {
+    margin-top: -2%;
+    margin-left: -2%;
+    visibility: visible;
+    z-index: -20;
+    position: fixed;
+  }
+
+.Intro{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-left: 5%;
+      color: rgb(5, 13, 78);
+}
+.Intro h1{
+     color: rgb(195, 195, 195);
+}
+
+.Intro h3{
+      margin-left:10%;
+}
+
+.Intro ul{
+    font-style: normal;
+    font-weight: 200;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(5, 13, 78);
+}
+.inst{
+     width: 300px;
+}
