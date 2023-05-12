@@ -265,13 +265,6 @@ function bases(posX, posY , posZ , color, sizeX , sizeY , sizeZ){
   
   
   
-  
-  
-  
-  
-  
-  
-  
     var ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
     scene.add(ambientLight);
     var directionalLightPositions = [      { x: 0, y: -4, z: 0 },      { x: 0, y: 4, z: 0 },      { x: 0, y: -4, z: -2 },      { x: 0, y: 4, z: 2 }    ];
@@ -290,7 +283,7 @@ function bases(posX, posY , posZ , color, sizeX , sizeY , sizeZ){
   
   const controls = new THREE.OrbitControls(camera, renderer.domElement);
   controls.enableRotate = true;
-  controls.enableZoom = false;
+  controls.enableZoom = true;
   controls.enablePan = false;
   controls.rotateSpeed = 0.5;
   controls.maxPolarAngle = Math.PI / 2; 
@@ -318,10 +311,9 @@ function bases(posX, posY , posZ , color, sizeX , sizeY , sizeZ){
     renderer.render(scene, camera);
   };
   
-  document.addEventListener('keydown', function (event) {
-    if (event.key === ' ') {
+  document.addEventListener('click', function (event) {
       isRotationEnabled = !isRotationEnabled;
-    }
+
   });
   
   render();

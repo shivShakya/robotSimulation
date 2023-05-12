@@ -1,6 +1,8 @@
-
+.body{
+      background-color: #333;
+}
 canvas {
-    margin-top: -2%;
+    margin-top: -200%;
     margin-left: -2%;
     visibility: visible;
     z-index: -20;
@@ -8,9 +10,12 @@ canvas {
   }
 
 .Intro{
+      width:90%;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       margin-left: 5%;
-      color: rgb(5, 13, 78);
+      color: rgb(34, 147, 120);
+      background-color: #333;
+      padding: 2%;
 }
 .Intro h1{
      color: rgb(195, 195, 195);
@@ -25,8 +30,29 @@ canvas {
     font-weight: 200;
     text-align: left;
     font-size: 20px;
-    color: rgb(5, 13, 78);
+    color: rgb(34, 147, 120);
 }
 .inst{
      width: 300px;
 }
+
+
+@media (max-width: 768px) {
+
+      .canvas{
+            margin-top: -100%;
+             
+      }
+      .Intro {
+        margin-top: 200%;
+      }
+    
+      .Intro h3 {
+        margin-left: 5%;
+      }
+    
+      .inst {
+        width: 100%;
+      }
+    }
+
