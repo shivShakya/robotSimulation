@@ -2,7 +2,7 @@
       background-color: #333;
 }
 canvas {
-    margin-top: -200%;
+    margin-top: -20%;
     margin-left: -2%;
     visibility: visible;
     z-index: -20;
@@ -10,12 +10,13 @@ canvas {
   }
 
 .Intro{
-      width:90%;
+      width:20%;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       margin-left: 5%;
       color: rgb(34, 147, 120);
       background-color: #333;
       padding: 2%;
+      margin-top: 20%;
 }
 .Intro h1{
      color: rgb(195, 195, 195);
