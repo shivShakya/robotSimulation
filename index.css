@@ -2,7 +2,7 @@
       background-color: #333;
 }
 canvas {
-    margin-top: -200%;
+    margin-top: -20%;
     margin-left: -2%;
     visibility: visible;
     z-index: -20;
@@ -16,6 +16,7 @@ canvas {
       color: rgb(34, 147, 120);
       background-color: #333;
       padding: 2%;
+      margin-top: 150%;
 }
 .Intro h1{
      color: rgb(195, 195, 195);
