@@ -40,11 +40,12 @@ canvas {
 
 @media (max-width: 768px) {
 
-      .canvas{
-            margin-top: -100%;
+      #canvas{ 
+            margin-top: -200%;
              
       }
       .Intro {
+        width: 90%;
         margin-top: 200%;
       }
     
